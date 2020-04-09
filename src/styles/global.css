@@ -1,8 +1,7 @@
 html {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #18a887);
-  background-size: 400% 2000px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #17997b);
+  background-size: 400% 400%;
+  background-attachment: sticky;
   animation: gradient 15s ease infinite;
 }
 body {
