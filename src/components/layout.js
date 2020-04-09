@@ -21,7 +21,6 @@ export default ({ children }) => {
         css={css`
       background-color:rgba(255, 255, 255, 0.35);
       border-radius:2px;
-      margin: 0 auto;
       padding: ${rhythm(0.5)};
       `}>
         <Link to={`/`}>
