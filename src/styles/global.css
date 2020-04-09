@@ -1,0 +1,40 @@
+html {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #18a887);
+  background-size: 400% 2000px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: gradient 15s ease infinite;
+}
+body {
+  color: white;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: "";
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 100%;
+}
